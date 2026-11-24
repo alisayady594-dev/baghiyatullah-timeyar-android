@@ -1,1 +1,14 @@
-# baghiyatullah-timeyar-android
+# بقیه‌الله | زمان‌یار — Android
+
+این پروژه یک پوسته اندرویدی WebView برای پنل زمان‌یار شماست و به Worker زیر وصل می‌شود:
+
+`https://baghiyatullah-timeyar.alisayady594.workers.dev/`
+
+## ساخت APK با GitHub Actions
+1. تمام فایل‌های این پوشه را در ریشه یک مخزن GitHub با نام دلخواه بارگذاری کنید.
+2. به زبانه **Actions** بروید.
+3. اجرای **Build Android APK** را باز کنید (در اولین بار ممکن است لازم باشد گزینه فعال‌سازی Actions را تأیید کنید).
+4. پس از سبز شدن اجرای workflow، از بخش **Artifacts** فایل `Baghiyatullah-Timeyar-APK` را دریافت کنید.
+5. فایل ZIP دریافتی را باز کنید؛ `app-debug.apk` داخل آن است.
+
+این نسخه رابط موجود روی Worker را در اپ نمایش می‌دهد؛ ورود و تأیید پیام‌ها طبق منطق سمت سرور انجام می‌شود.
